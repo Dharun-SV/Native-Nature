@@ -1,0 +1,6 @@
+@NativeNature.Server_HostAddress = http://localhost:5085
+
+GET {{NativeNature.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
