@@ -2,10 +2,10 @@
 {
     public class ContactRequest
     {
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Phone { get; set; }
-        public string Subject { get; set; }
-        public string Message { get; set; }
+        public string name { get; set; }
+        public string email { get; set; }
+        public string phone { get; set; }
+        public string subject { get; set; }
+        public string message { get; set; }
     }
 }
