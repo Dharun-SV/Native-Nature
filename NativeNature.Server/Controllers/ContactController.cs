@@ -4,12 +4,12 @@ using NativeNature.Server.Model;
 
 namespace NativeNature.Server.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class ContactController : ControllerBase
     {
         [HttpPost("sendEmail")]
-        public IActionResult Send([FromBody] ContactRequest model)
+        public IActionResult sendEmail([FromBody] ContactRequest model)
         {
             // Here you can send email or save to database
             return Ok(new { message = "Mail sent successfully" });
