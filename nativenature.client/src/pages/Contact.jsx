@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Contact() {
 
-    const [formData, setFormData] = useState();
+    const [formData, setFormData] = useState({});
 
     const handleChange = (e) => {
         setFormData({
@@ -14,19 +14,31 @@ function Contact() {
     };
 
     const handleSubmit = async (e) => {
-        debugger;
         e.preventDefault();
 
-        const response = await fetch("/api/Contact/sendEmail", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(formData)
-        });
+        try {
+            console.log("Submitting contact form", formData);
+            const response = await fetch("/api/SendEmail/sendEmail", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(formData)
+            });
 
-        const data = await response.json();
-        alert(data.message);
+            if (!response.ok) {
+                const text = await response.text();
+                console.error("API error", response.status, text);
+                alert(`Request failed: ${response.status}`);
+                return;
+            }
+
+            const data = await response.json();
+            alert(data.message);
+        } catch (err) {
+            console.error(err);
+            alert("Network error: " + (err.message || err));
+        }
     };
 
 

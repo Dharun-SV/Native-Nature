@@ -9,7 +9,9 @@ builder.Services.AddOpenApi();
 var app = builder.Build();
 
 app.UseDefaultFiles();
-app.MapStaticAssets();
+// Temporarily disable SPA static assets/proxy integration to avoid the
+// SPA proxy shutting down the host during local debugging.
+// app.MapStaticAssets();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

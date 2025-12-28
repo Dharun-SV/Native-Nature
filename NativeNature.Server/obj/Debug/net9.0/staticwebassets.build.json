@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "swTVsNPysTrrTUGRBF6+Bt0iUjrS2U3XyruPtTEq5Ms=",
+  "Source": "NativeNature.Server",
+  "BasePath": "_content/NativeNature.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "F:\\Dharun\\NativeNature Source\\NativeNature\\nativenature.client\\nativenature.client.esproj",
+      "Version": 2,
+      "Source": "nativenature.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
