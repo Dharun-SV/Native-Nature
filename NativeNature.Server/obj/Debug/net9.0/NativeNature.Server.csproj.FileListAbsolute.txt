@@ -35,3 +35,4 @@ F:\Dharun\NativeNature Source\NativeNature\NativeNature.Server\obj\Debug\net9.0\
 F:\Dharun\NativeNature Source\NativeNature\NativeNature.Server\obj\Debug\net9.0\NativeNature.Server.genruntimeconfig.cache
 F:\Dharun\NativeNature Source\NativeNature\NativeNature.Server\obj\Debug\net9.0\ref\NativeNature.Server.dll
 F:\Dharun\NativeNature Source\NativeNature\NativeNature.Server\obj\Debug\net9.0\NativeNature.Server.sourcelink.json
+F:\Dharun\NativeNature Source\NativeNature\NativeNature.Server\bin\Debug\net9.0\NativeNature.Server.staticwebassets.runtime.json

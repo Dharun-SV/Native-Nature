@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "swTVsNPysTrrTUGRBF6+Bt0iUjrS2U3XyruPtTEq5Ms=",
+  "Hash": "jGzepf4yGZwtzCBnEIQEH2noJFbVR5vJUIDC/wXMdd8=",
   "Source": "NativeNature.Server",
   "BasePath": "_content/NativeNature.Server",
   "Mode": "Default",
@@ -18,7 +18,15 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NativeNature.Server\\wwwroot",
+      "Source": "NativeNature.Server",
+      "ContentRoot": "F:\\Dharun\\NativeNature Source\\NativeNature\\NativeNature.Server\\wwwroot\\",
+      "BasePath": "_content/NativeNature.Server",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }
