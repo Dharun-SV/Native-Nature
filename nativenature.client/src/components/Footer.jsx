@@ -26,7 +26,7 @@ function Footer() {
                                         Dynamic Apartments, 15 Parangusapuram St, Azeez Nagar, West
                                         Mambalam, Chennai, Tamil Nadu 600024
                                     </li>
-                                    <li>supportnativenature@gmail.com</li>
+                                    <li>nativenature.care@gmail.com</li>
                                     <li>+91 8270177197</li>
                                 </ul>
                             </div>

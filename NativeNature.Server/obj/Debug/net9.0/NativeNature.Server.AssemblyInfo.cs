@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NativeNature.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59e51bc3c2a558b07d2a5cad3eab8eff326ecb3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b36bff52852f65d8619ff47d225cc02f58cc5628")]
 [assembly: System.Reflection.AssemblyProductAttribute("NativeNature.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NativeNature.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
